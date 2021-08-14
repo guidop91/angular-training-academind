@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-dream-app';
+  lyrics = 'I! I am inside! And you know that I control you!';
 }
