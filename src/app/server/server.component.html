@@ -1,2 +1,9 @@
-<p>The server component</p>
-<p>He ostavat lakritsia</p>
+<p>The server with ID 
+  <span style="font-weight: bold;">{{ serverID }}</span>
+  is
+  <span 
+    [ngStyle]="{background: getColor()}"
+    [ngClass]="{online: serverStatus === 'online'}">
+      {{ getServerStatus() }}
+  </span>
+</p>
