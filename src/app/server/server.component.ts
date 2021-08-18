@@ -4,4 +4,4 @@ import { Component } from '@angular/core';
   selector: 'app-server',
   templateUrl: './server.component.html'
 })
-export default class ServerComponent {}
+export class ServerComponent {}
